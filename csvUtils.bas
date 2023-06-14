@@ -1,3 +1,6 @@
+Option Explicit
+Option Base 0
+
 Public Sub saveArrayAsCSV(MyArray As Variant, sFileName As String, Optional sDelimiter As String = ",", Optional removeQuotes = 0)
 
 Dim n As Long 'counter
